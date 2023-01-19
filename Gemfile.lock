@@ -44,12 +44,12 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     builder (3.2.4)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     erubi (1.10.0)
-    globalid (0.5.2)
+    globalid (1.0.1)
       activesupport (>= 5.0)
-    i18n (1.8.11)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     loofah (2.12.0)
       crass (~> 1.0.2)
@@ -60,12 +60,14 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.6.1)
-    minitest (5.14.4)
+    minitest (5.17.0)
     nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.2.3)
@@ -106,7 +108,7 @@ GEM
     sqlite3 (1.4.2)
     thor (1.1.0)
     thread_safe (0.3.6)
-    tzinfo (1.2.9)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
@@ -115,6 +117,7 @@ GEM
 PLATFORMS
   -darwin-20
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   nokogiri (>= 1.12.5)
